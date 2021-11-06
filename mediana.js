@@ -12,13 +12,15 @@ return promedioLista;
 };
 
 
-const lista1 = [
+const lista = [
     100,
     200,
     180,
     400000000,
     500,
 ];
+
+const lista1 = lista.sort((a, b) => a - b);
 
 const mitadLista1 = parseInt(lista1.length / 2);
   
@@ -30,7 +32,7 @@ function esPar(numero){
         return false
     }
 }
-
+        
 let mediana;
 
 if (esPar(lista1.length)){
@@ -44,6 +46,4 @@ if (esPar(lista1.length)){
 }
 else {
     mediana = lista1[mitadLista1];
-    //posicion mitadlista1 dentro de lista1
-    //->mediana
 }
