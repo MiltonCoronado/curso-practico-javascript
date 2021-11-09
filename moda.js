@@ -27,8 +27,8 @@ lista1.map(
 
 
 const lista1Array = Object.entries(lista1Count).sort(
-    function (elementoA,elementoB) {
-        return elementoA[1] - elementoB[1];
+    function (a,B) {
+        return a[1] - B[1];
     }
 );
 
