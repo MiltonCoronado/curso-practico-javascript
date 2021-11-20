@@ -26,8 +26,7 @@ lista1.map(
 );
 
 
-const lista1Array = Object.entries(lista1Count).sort(
-    function (a,B) {
+const lista1Array = Object.entries(lista1Countelemento    function (a,B) {
         return a[1] - B[1];
     }
 );
